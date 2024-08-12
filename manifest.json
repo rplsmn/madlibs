@@ -543,6 +543,36 @@
         "Built": "R 4.3.2; ; 2024-01-09 02:32:15 UTC; windows"
       }
     },
+    "logger": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Type": "Package",
+        "Package": "logger",
+        "Authors@R": "c(\n    person(\"Gergely\", \"Daróczi\", , \"daroczig@rapporter.net\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-3149-8537\")),\n    person(\"System1\", role = c(\"fnd\"))\n    )",
+        "Title": "A Lightweight, Modern and Flexible Logging Utility",
+        "Description": "Inspired by the the 'futile.logger' R package and 'logging' Python module, this utility provides a flexible and extensible way of formatting and delivering log messages with low overhead.",
+        "Version": "0.3.0",
+        "Date": "2024-03-03",
+        "URL": "https://daroczig.github.io/logger/",
+        "BugReports": "https://github.com/daroczig/logger/issues",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.1",
+        "License": "AGPL-3",
+        "Imports": "utils",
+        "Suggests": "glue, pander, jsonlite, crayon, slackr (>= 1.4.1),\nRPushbullet, telegram, testthat, covr, knitr, rmarkdown,\ndevtools, roxygen2, parallel, rsyslog, shiny, callr, txtq,\nbotor, R.utils, syslognet",
+        "Enhances": "logging, futile.logger, log4r",
+        "VignetteBuilder": "knitr",
+        "Config/testthat/edition": "2",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-03-05 14:10:49 UTC; daroczig",
+        "Author": "Gergely Daróczi [aut, cre] (<https://orcid.org/0000-0003-3149-8537>),\n  System1 [fnd]",
+        "Maintainer": "Gergely Daróczi <daroczig@rapporter.net>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-03-05 16:20:02 UTC",
+        "Built": "R 4.3.3; ; 2024-08-04 00:32:31 UTC; windows"
+      }
+    },
     "magrittr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -860,7 +890,7 @@
   },
   "files": {
     "app.R": {
-      "checksum": "5e266851ed07c7bbf21d7627a6dcd526"
+      "checksum": "06dcdc90a99f7c1888cc76b825d64be3"
     }
   },
   "users": null
