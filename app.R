@@ -1,6 +1,18 @@
 library(shiny)
+library(logger)
 
 generate_story <- function(noun, verb, adjective, adverb) {
+
+  log_info("Generating story")
+
+  log_info("Noun: ", noun)
+  log_info("Verb: ", verb)
+  log_info("Adjective: ", adjective)
+  log_info("Adverb: ", adverb)
+
+  log_success("Story generated")
+
+
   glue::glue("
     Once upon a time, there was a {adjective} {noun} who loved to
     {verb} {adverb}. It was the funniest thing ever!
